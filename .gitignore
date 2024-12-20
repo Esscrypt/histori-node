@@ -1,0 +1,93 @@
+# compiled output
+/dist
+/node_modules
+/build
+/terraform
+
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS
+.DS_Store
+
+.env
+
+lambda_*.zip
+# terraform/lambda_*.zip
+# terraform/dev/lambda_*.zip
+# terraform/prod/lambda_*.zip
+
+# Terraform files
+*.tfstate
+*.tfstate.*
+crash.log
+terraform.tfvars
+terraform.tfvars.json
+*.auto.tfvars
+*.auto.tfvars.json
+
+# Terraform plan files
+*.tfplan
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+**/.terraform/*
+
+# Terraform files
+*.tfstate
+*.tfstate.*
+crash.log
+terraform.tfvars
+terraform.tfvars.json
+*.auto.tfvars
+*.auto.tfvars.json
+
+# Terraform plan files
+*.tfplan
+
+# Ignore secrets in environment files
+.env
+
+# Lock files
+.terraform.lock.hcl
+
+.terraform
+
+# Module-specific files (optional, if using modules)
+modules/*
+
+# Backup and log files
+*.log
+*.backup
+*.bak
+
+# Ignore IDE-specific files (example for VS Code)
+.vscode/
+.idea/
+*.iml
+
+networks.json
+
+./deploy.sh
+authorizer.mjs
+deploy.sh

@@ -1,0 +1,17 @@
+{
+  "name": "histori-node",
+  "version": "1.0.0",
+  "description": "Histori Node router Lambda",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mihail Kirov",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-api-gateway": "^3.682.0",
+    "axios": "^1.7.7",
+    "ethers": "^6.13.4",
+    "json-stable-stringify": "^1.1.1"
+  }
+}
