@@ -86,8 +86,5 @@ modules/*
 .idea/
 *.iml
 
-networks.json
-
-./deploy.sh
 authorizer.mjs
 deploy.sh

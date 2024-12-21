@@ -1,0 +1,27 @@
+[
+    {
+        "networkId": "eth-mainnet",
+        "rpc": [
+            {
+                "url": "https://node.histori.xyz/eth-mainnet/<YOUR_HISTORI_PROJECT_ID_HERE>"
+            },
+            {
+                "url": "https://eth-mainnet.g.alchemy.com/v2/<YOUR_ALCHEMY_API_KEY>"
+            }
+        ]
+    },
+    {
+        "networkId": "eth-sepolia",
+        "rpc": [
+            {
+                "url": "https://node.histori.xyz/eth-sepolia/<YOUR_HISTORI_PROJECT_ID_HERE>"
+            },
+            {
+                "url": "https://eth-sepolia.g.alchemy.com/v2/<YOUR_ALCHEMY_API_KEY>"
+            },
+            {
+                "url": "https://sepolia.infura.io/v3/<YOUR_INFURA_API_KEY>"
+            }
+        ]
+    }
+]
