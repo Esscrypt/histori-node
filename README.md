@@ -1,6 +1,9 @@
 # Histori Node Service
 
-Welcome to the **Histori Node Service** repository. This project provides the core functionality for handling blockchain data requests. It includes utilities for building, deploying, and running the service in development and production environments.
+Welcome to the **Histori RPC Router** repository.
+
+The Histori RPC Router is a robust service designed to provide access to blockchain data across multiple networks. With features like unified multi-network support, secure transaction submission via Flashbots integration, fallback RPC calls on failure and verification of RPC calls from multiple providers, it simplifies the development of decentralized applications while ensuring data integrity and security. The service includes advanced capabilities such as parallel requests for consistency verification, automatic fallback mechanisms for high availability, and random provider selection for load balancing and rate limit safety, making it ideal for high-traffic applications like DeFi platforms and NFT marketplaces. Whether you need reliable access to historical blockchain states or protection against MEV attacks, Histori RPC Router delivers performance, reliability, and peace of mind.
+
 ---
 
 ## 🛠️ Requirements
